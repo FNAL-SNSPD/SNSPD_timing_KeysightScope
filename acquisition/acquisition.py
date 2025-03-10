@@ -1,10 +1,10 @@
-# adapted for MSO-X 92004A
 
 """
 VISA Control: FastFrame Acquisition
-Tektronix DPO7254 Control
-FNAL November 2018
-CMS MTD ETL Test beam
+Christina Wang, 2025/03/09
+For SNSPD data taking with laser
+trigger is configured to coincidence trigger between laser and SNSPD channel
+
 """
 
 import numpy as np
@@ -49,11 +49,11 @@ parser.add_argument('--laserCH',metavar='laserCH', type=str,default = 1, help='l
 parser.add_argument('--snspdCH',metavar='snspdCH', type=str,default = 2, help='snspd channel (default 2)',required=True)
 parser.add_argument('--sampleRate',metavar='sampleRate', type=str,default = 20, help='Sampling rate (default 20)',required=True)
 parser.add_argument('--horizontalWindow',metavar='horizontalWindow', type=str,default = 125, help='horizontal Window (default 125)',required=True)
-## parser.add_argument('--numPoints',metavar='Points', type=str,default = 500, help='numPoints (default 500)',required=True)
 parser.add_argument('--vScale1',metavar='vScale1', type=float, default= 0.02, help='Vertical scale, volts/div',required=False)
 parser.add_argument('--vScale2',metavar='vScale2', type=float, default= 0.02, help='Vertical scale, volts/div',required=False)
 parser.add_argument('--vScale3',metavar='vScale3', type=float, default= 0.02, help='Vertical scale, volts/div',required=False)
 parser.add_argument('--vScale4',metavar='vScale4', type=float, default= 0.02, help='Vertical scale, volts/div',required=False)
+parser.add_argument('--outputDir',metavar='outputDir', type=str, default= "", help='Output directory on scope',required=True)
 #
 parser.add_argument('--vPos1',metavar='vPos1', type=float, default= 0.02, help='Vertical offset, div',required=False)
 parser.add_argument('--vPos2',metavar='vPos2', type=float, default= 0.02, help='Vertical offset, div',required=False)
@@ -114,10 +114,11 @@ else: runNumber = runNumberParam
 """#################SET THE OUTPUT FOLDER#################"""
 # The scope save runs localy on a shared folder with
 
-path = r"C:\Users\Public\Documents\Infiniium\Waveforms/ADR_data/" + datetime.date.today().strftime("%Y%m%d") + "_0p8K/"
+path = args.outputDir.encode('unicode_escape').decode()
+
+#path = r"C:\Users\Public\Documents\Infiniium\Waveforms/ADR_data/" + datetime.date.today().strftime("%Y%m%d") + "_0p2K/"
 dpo.write(':DISK:MDIRectory "{}"'.format(path)) ## mkdir 
-log_path = "/home/fqnet/Desktop/ScopeHandler/KeySight/Acquisition/Logbook.txt"
-run_log_path = "/home/fqnet/Desktop/ScopeHandler/KeySight/Acquisition/RunLog.txt"
+log_path = "//home/fqnet/Desktop/SNSPD_timing_KeysightScope/acquisition/Logbook.txt"
 
 #Write in the log file
 logf = open(log_path,"a+")
@@ -193,9 +194,6 @@ print('Horizontal, vertical, and trigger settings configured.\n')
 status = ""
 status = "busy"
 
-run_logf = open(run_log_path,"w")
-run_logf.write(status)
-run_logf.close()
 
 """#################DATA TRANSFERRING#################"""
 # configure data transfer settings
@@ -207,8 +205,6 @@ dpo.write('*CLS;:SINGle')
 start = time.time()
 end_early = False
 while True:
-#	print "Ader is ",dpo.query(':ADER?')
-#	print "OPC is ",dpo.query('*OPC?')
 	if (int(dpo.query(':ADER?')) == 1): 
 		print("Acquisition complete")
 		break
@@ -224,11 +220,6 @@ end = time.time()
 #print(dpo.query('*OPC?'))
 # print("Trigger!")
 
-tmp_file = open(run_log_path,"w")
-status = "writing"
-tmp_file.write(status)
-tmp_file.write("\n")
-tmp_file.close()
 
 duration = end - start
 trigRate = float(numEvents)/duration
@@ -246,11 +237,6 @@ if savewaves:
 		print(f"Saved Channel {i} waveform")
 		time.sleep(1)
 else: print("Skipping saving step.")
-tmp_file2 = open(run_log_path,"w")
-status = "ready"
-tmp_file2.write(status)
-tmp_file2.write("\n")
-tmp_file2.close()
 
 
 dpo.close()
