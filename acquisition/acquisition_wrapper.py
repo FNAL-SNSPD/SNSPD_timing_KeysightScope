@@ -51,7 +51,7 @@ scope_ch = [2,3,4] # channel on scope
 nevents = 10000
 tries = 5
 
-voltages = np.round([ 0.140,0.145,0.150,0.155,0.160,0.170,0.180,0.190,0.200,0.210,0.220, 0.230,0.240],3)
+voltages = np.round([0.140,0.145,0.150,0.155,0.160,0.170,0.180,0.190,0.200,0.210,0.220,0.230,0.240],3)
 print(voltages)
 
 ##### scope settings, assume ch1 is laser, ch2-4 are SNSPDs ####
@@ -67,7 +67,7 @@ hScale = 200 #ns
 hOffset = 20 #ns
 sampleRate = 128 #GSa/s
 
-outputDir = r"C:/Users/Public/Documents/Infiniium/Waveforms/ADR_data/" + datetime.date.today().strftime("%Y%m%d") + "_0p5K/"
+outputDir = r"C:/Users/Public/Documents/Infiniium/Waveforms/ADR_data/" + datetime.date.today().strftime("%Y%m%d") + "_0p2K/"
 print(outputDir)
 if __name__ == "__main__":
 	###########################################
@@ -77,7 +77,6 @@ if __name__ == "__main__":
 	sim = rm.open_resource('ASRL/dev/ttyUSB0::INSTR')
 	print("Main frame: ", query("*IDN?"))
 	for ch_i, bias_ch in enumerate(biases):
-		if bias_ch == 4:continue
 		name = f"B{bias_ch}_P{pixels[ch_i]}"
 		sim.write("CONN {}, 'quit'".format(bias_ch))
 		print(f"Slot {bias_ch}:", query("*idn?"))
