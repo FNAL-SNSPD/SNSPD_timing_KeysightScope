@@ -6,14 +6,23 @@ Instructions for the acquisition and reconstruction part are here:
 
 ## Acquisition
 *  This step produces files in the HDF5 format
-*  How to run? `python acquisition.py --numEvents 20000 --numPoints 8000 --trigCh 2 --trig -0.05`
+*  How to run? `sudo python3 acquisition.py --numEvents [nevents] --runNumber [runNumber] --laserCH [ch] --snspdCH [ch]
+ --horizontalWindow [hScale] --timeoffset [hOffset] --sampleRate [sampleRate] 
+--vScale1 [vScale_ch1] --vScale2 [vScale_ch2] --vScale3 [vScale_ch3] --vScale4 [vScale_ch4] 
+--vPos1 [vPos_ch1] --vPos2 [vPos_ch2] --vPos3 [vPos_ch3] --vPos4 [vPos_ch4] --outputDir [outputDir]`
 
-`python acquisition.py --numEvents 6000 --sampleRate 20 --horizontalWindow 125 --trigCh 1 --trig -0.05`
+* `acquisition_wrapper.py` loops over different bias voltages and different pixels to run `acquisition.py`
+
+
 ## Reconstruction
-*  The files created with the previous step are converted into ROOT TTree's using the h5py python package. This step requires the .h5 files for the 4 channels as input.
+*  The files created with the previous step are converted into ROOT TTree's using the h5py python package. This step requires the .h5 files for the channels as input.
 *  First make sure you have the h5py package. If you have an existing python installation, do
 `pip install h5py`
 Run the conversion script
-`python conversion_h5.py --inputFiles 1 2 3 4`
+`python3 conversion_h5.py --channels 1 2 --inputDir [inputDir] --run [runNumber]`
 
-`python conversion_bin_fast.py --Run 6068`
+`conversion_wrapper.py` loops over all pixels and bias voltages
+
+### To extract the time (fit rising edge), rise time, amplitude:
+`python3 reco.py --channels 1 {scope_ch[ch_i]} --inputDir {inputDir} --outputDir {outputDir} --run`
+`reco_wrapper.py` loops over all pixels and bias voltages
