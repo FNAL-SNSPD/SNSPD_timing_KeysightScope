@@ -5344,3 +5344,1878 @@ VERTICAL SETUP
 - CH3: vertical scale set to 0.05 V for division
 - CH4: vertical scale set to 0.05 V for division
 
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p23 ####
+
+Date:	2025-03-10 12:21:41.919183
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p24 ####
+
+Date:	2025-03-10 12:23:46.163760
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p14 ####
+
+Date:	2025-03-10 12:25:51.146440
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p145 ####
+
+Date:	2025-03-10 12:28:41.001119
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p15 ####
+
+Date:	2025-03-10 12:31:01.623955
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p155 ####
+
+Date:	2025-03-10 12:33:15.108530
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p16 ####
+
+Date:	2025-03-10 12:35:26.388426
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p17 ####
+
+Date:	2025-03-10 12:37:37.131145
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p18 ####
+
+Date:	2025-03-10 12:39:47.591176
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p19 ####
+
+Date:	2025-03-10 12:41:57.360941
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p2 ####
+
+Date:	2025-03-10 12:44:06.524579
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p21 ####
+
+Date:	2025-03-10 12:46:16.085402
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p22 ####
+
+Date:	2025-03-10 12:48:25.694258
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p23 ####
+
+Date:	2025-03-10 12:50:35.732656
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p24 ####
+
+Date:	2025-03-10 12:52:45.831826
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p13 ####
+
+Date:	2025-03-10 13:36:00.595739
+---------------------------------------------------------
+Number of events per file: 100 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p135 ####
+
+Date:	2025-03-10 13:36:27.973775
+---------------------------------------------------------
+Number of events per file: 100 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p13 ####
+
+Date:	2025-03-10 13:36:37.498419
+---------------------------------------------------------
+Number of events per file: 100 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p135 ####
+
+Date:	2025-03-10 13:36:52.992897
+---------------------------------------------------------
+Number of events per file: 100 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p135 ####
+
+Date:	2025-03-10 13:39:40.804696
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p14 ####
+
+Date:	2025-03-10 13:43:54.042692
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p145 ####
+
+Date:	2025-03-10 13:46:29.268426
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p15 ####
+
+Date:	2025-03-10 13:48:45.657646
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p14 ####
+
+Date:	2025-03-10 11:53:17.276047
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p155 ####
+
+Date:	2025-03-10 09:29:17.002962
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p155 ####
+
+Date:	2025-03-10 13:50:58.048819
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B4_P1_BV0p135 ####
+
+Date:	2025-03-10 13:52:54.443020
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B4_P1_BV0p14 ####
+
+Date:	2025-03-10 13:55:29.883258
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B4_P1_BV0p145 ####
+
+Date:	2025-03-10 13:57:48.343148
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B4_P1_BV0p15 ####
+
+Date:	2025-03-10 14:00:01.866343
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B4_P1_BV0p155 ####
+
+Date:	2025-03-10 14:02:14.629970
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B4_P1_BV0p16 ####
+
+Date:	2025-03-10 14:04:26.177296
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B4_P1_BV0p17 ####
+
+Date:	2025-03-10 14:06:38.097723
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B4_P1_BV0p18 ####
+
+Date:	2025-03-10 14:08:50.224256
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B4_P1_BV0p19 ####
+
+Date:	2025-03-10 14:11:01.577105
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p135 ####
+
+Date:	2025-03-10 14:13:11.118866
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p14 ####
+
+Date:	2025-03-10 14:17:26.293145
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p145 ####
+
+Date:	2025-03-10 14:20:04.494710
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p15 ####
+
+Date:	2025-03-10 14:22:25.542067
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p155 ####
+
+Date:	2025-03-10 14:24:40.370388
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p16 ####
+
+Date:	2025-03-10 14:26:52.567565
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p17 ####
+
+Date:	2025-03-10 14:29:03.161767
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p18 ####
+
+Date:	2025-03-10 14:31:12.686060
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p19 ####
+
+Date:	2025-03-10 14:33:18.862753
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p135 ####
+
+Date:	2025-03-10 14:35:24.420160
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p14 ####
+
+Date:	2025-03-10 14:38:44.881731
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p145 ####
+
+Date:	2025-03-10 14:41:11.849434
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p15 ####
+
+Date:	2025-03-10 14:43:26.792095
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p155 ####
+
+Date:	2025-03-10 14:45:40.026732
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p16 ####
+
+Date:	2025-03-10 14:47:53.766354
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p17 ####
+
+Date:	2025-03-10 14:50:06.114821
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p18 ####
+
+Date:	2025-03-10 14:52:18.127809
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p19 ####
+
+Date:	2025-03-10 14:54:31.609425
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B4_P1_BV0p14 ####
+
+Date:	2025-03-10 15:40:46.680444
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B4_P1_BV0p145 ####
+
+Date:	2025-03-10 15:43:12.696785
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B4_P1_BV0p15 ####
+
+Date:	2025-03-10 15:45:28.596827
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B4_P1_BV0p155 ####
+
+Date:	2025-03-10 15:47:41.383800
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B4_P1_BV0p16 ####
+
+Date:	2025-03-10 15:49:52.222703
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B4_P1_BV0p17 ####
+
+Date:	2025-03-10 15:52:02.326767
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B4_P1_BV0p18 ####
+
+Date:	2025-03-10 15:54:12.512212
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B4_P1_BV0p19 ####
+
+Date:	2025-03-10 15:56:23.322691
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B4_P1_BV0p2 ####
+
+Date:	2025-03-10 15:58:32.983706
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B4_P1_BV0p21 ####
+
+Date:	2025-03-10 16:00:44.152678
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B4_P1_BV0p22 ####
+
+Date:	2025-03-10 16:02:55.910650
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p14 ####
+
+Date:	2025-03-10 16:05:06.630476
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p145 ####
+
+Date:	2025-03-10 16:08:21.854086
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p15 ####
+
+Date:	2025-03-10 16:10:47.500081
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p155 ####
+
+Date:	2025-03-10 16:12:59.979589
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p16 ####
+
+Date:	2025-03-10 16:15:09.703898
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p17 ####
+
+Date:	2025-03-10 16:17:17.863487
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p18 ####
+
+Date:	2025-03-10 16:19:25.569643
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p19 ####
+
+Date:	2025-03-10 16:21:33.143272
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p2 ####
+
+Date:	2025-03-10 16:23:40.818753
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p21 ####
+
+Date:	2025-03-10 16:25:48.652555
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p22 ####
+
+Date:	2025-03-10 16:27:55.647537
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p14 ####
+
+Date:	2025-03-10 16:30:01.128958
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p145 ####
+
+Date:	2025-03-10 16:32:51.378274
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p15 ####
+
+Date:	2025-03-10 16:35:11.478482
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p155 ####
+
+Date:	2025-03-10 16:37:23.527808
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p16 ####
+
+Date:	2025-03-10 16:39:33.242076
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p17 ####
+
+Date:	2025-03-10 16:41:42.296410
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p18 ####
+
+Date:	2025-03-10 16:43:52.277546
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p19 ####
+
+Date:	2025-03-10 16:46:00.664994
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p2 ####
+
+Date:	2025-03-10 16:48:09.327911
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p21 ####
+
+Date:	2025-03-10 16:50:18.140294
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p22 ####
+
+Date:	2025-03-10 16:52:27.207431
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B4_P1_BV0p14 ####
+
+Date:	2025-03-11 10:05:32.518467
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B4_P1_BV0p145 ####
+
+Date:	2025-03-11 10:07:47.928163
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B4_P1_BV0p15 ####
+
+Date:	2025-03-11 10:09:54.686427
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B4_P1_BV0p155 ####
+
+Date:	2025-03-11 10:11:55.655158
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B4_P1_BV0p16 ####
+
+Date:	2025-03-11 10:13:56.446624
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B4_P1_BV0p17 ####
+
+Date:	2025-03-11 10:15:57.868263
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B4_P1_BV0p18 ####
+
+Date:	2025-03-11 10:17:59.075309
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B4_P1_BV0p19 ####
+
+Date:	2025-03-11 10:19:59.324131
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B4_P1_BV0p2 ####
+
+Date:	2025-03-11 10:21:58.907003
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B4_P1_BV0p21 ####
+
+Date:	2025-03-11 10:24:09.962614
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B4_P1_BV0p22 ####
+
+Date:	2025-03-11 10:26:20.304878
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B4_P1_BV0p23 ####
+
+Date:	2025-03-11 10:28:29.927989
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B4_P1_BV0p24 ####
+
+Date:	2025-03-11 10:30:40.319146
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p14 ####
+
+Date:	2025-03-11 10:32:49.867288
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p145 ####
+
+Date:	2025-03-11 10:36:04.025781
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p15 ####
+
+Date:	2025-03-11 10:38:29.620722
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p155 ####
+
+Date:	2025-03-11 10:40:44.714046
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p16 ####
+
+Date:	2025-03-11 10:42:56.502835
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p17 ####
+
+Date:	2025-03-11 10:45:07.516780
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p18 ####
+
+Date:	2025-03-11 10:47:17.349085
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p19 ####
+
+Date:	2025-03-11 10:49:27.656993
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p2 ####
+
+Date:	2025-03-11 10:51:39.139295
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p21 ####
+
+Date:	2025-03-11 10:53:49.511800
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p22 ####
+
+Date:	2025-03-11 10:55:48.646212
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p23 ####
+
+Date:	2025-03-11 10:57:54.322482
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B1_P2_BV0p24 ####
+
+Date:	2025-03-11 10:59:49.942871
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p14 ####
+
+Date:	2025-03-11 11:01:47.071688
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p145 ####
+
+Date:	2025-03-11 11:04:29.265940
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p15 ####
+
+Date:	2025-03-11 11:06:41.184357
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p155 ####
+
+Date:	2025-03-11 11:08:45.601932
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p16 ####
+
+Date:	2025-03-11 11:10:57.639406
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p17 ####
+
+Date:	2025-03-11 11:13:09.106280
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p18 ####
+
+Date:	2025-03-11 11:15:20.902315
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p19 ####
+
+Date:	2025-03-11 11:17:33.096977
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p2 ####
+
+Date:	2025-03-11 11:19:44.539751
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p21 ####
+
+Date:	2025-03-11 11:21:56.244212
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p22 ####
+
+Date:	2025-03-11 11:24:07.606289
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p23 ####
+
+Date:	2025-03-11 11:26:18.046981
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
+
+
+#### SCOPE LOGBOOK -- RUN NUMBER B2_P3_BV0p24 ####
+
+Date:	2025-03-11 11:28:18.482587
+---------------------------------------------------------
+Number of events per file: 10000 
+---------------------------------------------------------
+
+VERTICAL SETUP
+- CH1: vertical scale set to 0.5 V for division
+- CH2: vertical scale set to 0.05 V for division
+- CH3: vertical scale set to 0.05 V for division
+- CH4: vertical scale set to 0.05 V for division
+
