@@ -24,5 +24,7 @@ Run the conversion script
 `conversion_wrapper.py` loops over all pixels and bias voltages
 
 ### To extract the time (fit rising edge), rise time, amplitude:
+
 `python3 reco.py --channels 1 {scope_ch[ch_i]} --inputDir {inputDir} --outputDir {outputDir} --run`
+
 `reco_wrapper.py` loops over all pixels and bias voltages
