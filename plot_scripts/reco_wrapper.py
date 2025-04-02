@@ -20,8 +20,8 @@ tempToDir = {
 
  }
 if __name__ == "__main__":
-    for k, v in tempToDir.items():
-        inputDir = f"{inputDirBase}/{v}/raw/"
+    for k, path in tempToDir.items():
+        inputDir = f"{inputDirBase}/{path}/raw/"
         outputDir = inputDir.replace("raw","reco")
         for ch_i, bias_ch in enumerate(biases):
             name = f"B{bias_ch}_P{pixels[ch_i]}"
@@ -33,7 +33,7 @@ if __name__ == "__main__":
                     continue
                 cmd = f"python3 reco.py --channels 1 {scope_ch[ch_i]} --inputDir {inputDir} --outputDir {outputDir} --run {name}_BV{bv_string}"
                 print(cmd)
-                os.system(cmd)
-                #processes.append(subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE))
-            #exit_codes = [p.wait() for p in processes]
-            #print(exit_codes)
+                #os.system(cmd)
+                processes.append(subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE))
+            exit_codes = [p.wait() for p in processes]
+            print(exit_codes)

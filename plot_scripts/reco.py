@@ -111,7 +111,7 @@ if __name__ == "__main__":
     input_file = uproot.open(f"{args.inputDir}/{file_name}") 
     tree = input_file["pulse"]
     print(f"output file: {args.outputDir}/{file_name}")
-
+    output = uproot.recreate(f"{args.outputDir}/{file_name}")
     for chunk_i, input_tree in enumerate(tree.iterate(["channel", "time"], step_size=1000)):
         length = len(input_tree)
         output_data = {}
@@ -125,24 +125,8 @@ if __name__ == "__main__":
                     output_data[k] = np.column_stack((output_data[k], results[k]))
                 else: output_data[k] = results[k]
         if chunk_i == 0:
-            with uproot.recreate(f"{args.outputDir}/{file_name}") as output:
-                try:
-                    output["pulse"] = output_data
-                    print(f"Recreating done chunk {chunk_i}!")
-                except:
-                    for key in output_data.keys():
-                        print(key, len(output_data[key]))
-                        print("The number of the events doesn't match and cannot be merged.")
-        else:
-            with uproot.update(f"{args.outputDir}/{file_name}") as output:
-                try:
-                    output["pulse"] = output_data
-                    print(f"Updating done chunk {chunk_i}!")
-                except:
-                    for key in output_data.keys():
-                        print(key, len(output_data[key]))
-                        print("The number of the events doesn't match and cannot be merged.")
-
+            output["pulse"] = output_data
+        else: output["pulse"].extend(output_data)
     
         #if plotting: 
         #    for evt_index in range(len(channel)):

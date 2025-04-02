@@ -19,19 +19,19 @@ tempToDir = {
 
  }
 if __name__ == "__main__":
-    for k, v in tempToDir.items():
-        inputDir = f"{inputDirBase}/{v}/"
+    for k, path in tempToDir.items():
+        inputDir = f"{inputDirBase}/{path}/raw/"
         for ch_i, bias_ch in enumerate(biases): # loop over pixels
             name = f"B{bias_ch}_P{pixels[ch_i]}"
             processes = []
             for j, v in enumerate(voltages): # loop over voltages
                 bv_string = str(voltages[j]).replace(".","p")
                 if not os.path.exists(inputDir+'Wavenewscope_CH1_'+f"{name}_BV{bv_string}"+'.h5'):
-                    print("FILE NOT FOUND", f"{name}_BV{bv_string}")
+                    print("FILE NOT FOUND", inputDir+'Wavenewscope_CH1_'+f"{name}_BV{bv_string}"+'.h5')
                     continue
                 cmd = f"python3 conversion_h5.py --channels 1 {scope_ch[ch_i]} --inputDir {inputDir} --run {name}_BV{bv_string}"
                 print(cmd)
-                os.system(cmd)
-                processes.append(subprocess.Popen(f"{run_combine};{mv_root};{mv_text}",shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE))
+                #os.system(cmd)
+                processes.append(subprocess.Popen(cmd,shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE))
             exit_codes = [p.wait() for p in processes]
             print(exit_codes)
