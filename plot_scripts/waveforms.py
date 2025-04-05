@@ -41,9 +41,9 @@ def plot(filename, channel):
     samples, dx, dy = read_hdf5(channel)
     waveform_id = 0
 
-    print "Drawing Waveforms, type 'CTRL-C' to exit."
+    print("Drawing Waveforms, type 'CTRL-C' to exit.")
     while True:
-        print "Drawing waveform", waveform_id
+        print("Drawing waveform", waveform_id)
         draw_waveform(waveform_id, samples, dx, dy, channel)
         waveform_id+=1
 

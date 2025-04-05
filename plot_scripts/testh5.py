@@ -3,7 +3,7 @@ import h5py
 import ROOT
  
 
-filename="/Users/swu1/work/spot1/timing/data/new_amp/raw/test.h5"
+filename="/eos/uscms/store/user/christiw/SNSPD_data/ADR_time_resolution_202503/20250309_0p8K/Wavenewscope_CH2_B4_P1_BV0p18.h5"
 channel=2
 
 f = h5py.File(filename)

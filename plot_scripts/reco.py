@@ -23,11 +23,13 @@ def find_nearest(a, maxid, a0):
 def linear(x, a, b):
     return a * x + b
 
-def linear_fit_rising_edge(signal, time, bl_length = 300, fit_range = [0.2,0.8]):
+def linear_fit_rising_edge(signal, time, laser = True, bl_length = 300, fit_range = [0.2,0.8]):
     results = {
             "rise_time": [],
             "time": [],
             "time_nofit":[],
+            "time_50mV": [],
+            "time_50mV_nofit":[],
             "amplitude": [],
             "n_fit_points":[],
             "slope":[],
@@ -45,6 +47,8 @@ def linear_fit_rising_edge(signal, time, bl_length = 300, fit_range = [0.2,0.8])
         if baseline_rms> 0.1:
             # Store the results
             results["amplitude"].append(-999)
+            results["time_50mV"].append(-999)
+            results["time_50mV_nofit"].append(-999)
             results["time_nofit"].append(-999)
             results["time"].append(-999)
             results["rise_time"].append(-999)
@@ -57,9 +61,12 @@ def linear_fit_rising_edge(signal, time, bl_length = 300, fit_range = [0.2,0.8])
             results['baseline_rms'].append(-999)
 
         else:
+            if laser: amp_threshold = 0.5
+            else: amp_threshold = 0.05
             # Normalize the waveform and turn to positive
             min_val = np.min(waveform_baseline_subtracted)
             max_val = np.max(waveform_baseline_subtracted)
+            if laser: max_val = np.mean(waveform[-100:])
             norm_waveform = (waveform_baseline_subtracted - min_val) / (max_val - min_val)
             # Find the first index corresponding to 10% and 90% of the waveform
             id_bl = np.where(waveform_baseline_subtracted >= baseline_rms*3)[0][0]
@@ -74,11 +81,13 @@ def linear_fit_rising_edge(signal, time, bl_length = 300, fit_range = [0.2,0.8])
             amplitude = max_val
             rise_time = time[waveform_idx][idx_90] - time[waveform_idx][idx_10]
        
-
-
+            timestamp_50mV = (amp_threshold/(max_val - min_val) - popt[1]) / popt[0]
+            time_temp = time[waveform_idx][idx_10:idx_90] 
             # Store the results
+            results["time_50mV"].append(timestamp_50mV)
+            results["time_50mV_nofit"].append(time_temp[find_nearest(waveform_baseline_subtracted[idx_10:idx_90], np.argmax(waveform_baseline_subtracted[idx_10:idx_90]), amp_threshold)])
             results["amplitude"].append(amplitude)
-            results["time_nofit"].append(time[waveform_idx][find_nearest(waveform_baseline_subtracted, np.argmax(waveform_baseline_subtracted), 0.5*max_val)])
+            results["time_nofit"].append(time_temp[find_nearest(waveform_baseline_subtracted[idx_10:idx_90], np.argmax(waveform_baseline_subtracted[idx_10:idx_90]), 0.5*max_val)])
             results["time"].append(timestamp)
             results["rise_time"].append(rise_time)
             results["t_90"].append( time[waveform_idx][idx_90])
@@ -99,8 +108,10 @@ if __name__ == "__main__":
     parser.add_argument('--inputDir', metavar='inputDir', type=str, help='input directory',default='/raw/', required=True)
     parser.add_argument('--outputDir', metavar='outputDir', type=str, help='output directory',default='/reco/', required=True)
     parser.add_argument('--run', metavar='run', type=str, help='run number',required=True)
+    parser.add_argument('--plotting', metavar='plotting', type=str, help='if enable plotting',default = 'False',required=False)
     args = parser.parse_args()
     active_channel = args.channels
+    plotting = args.plotting
     NUM_CHANNEL = len(active_channel)
     print("Active channels: ", active_channel)
     os.makedirs(args.outputDir, exist_ok = True)
@@ -112,53 +123,23 @@ if __name__ == "__main__":
     tree = input_file["pulse"]
     print(f"output file: {args.outputDir}/{file_name}")
     output = uproot.recreate(f"{args.outputDir}/{file_name}")
-    for chunk_i, input_tree in enumerate(tree.iterate(["channel", "time"], step_size=1000)):
+    for chunk_i, input_tree in enumerate(tree.iterate(["channel", "time"], step_size=100)):
         length = len(input_tree)
         output_data = {}
         print(f"Total number of events in chunk {chunk_i}:", length)
         for ch in range(NUM_CHANNEL):
             channel = ak.to_numpy(input_tree['channel'][:,ch,:])
             times = ak.to_numpy(input_tree['time'][:,ch,:]) * 1e9 #conver to ns from s
-            results = linear_fit_rising_edge(channel, times)
+            if ch == 0: laser = True
+            else: laser = False
+            results = linear_fit_rising_edge(channel, times,laser = laser)
             for k in results.keys():
                 if k in output_data.keys():
                     output_data[k] = np.column_stack((output_data[k], results[k]))
                 else: output_data[k] = results[k]
+
         if chunk_i == 0:
             output["pulse"] = output_data
         else: output["pulse"].extend(output_data)
     
-        #if plotting: 
-        #    for evt_index in range(len(channel)):
-        #        plot_events(i_evt)
     #
-    #def plot_events(i_evt, t_10, t_90):
-    #    plt.figure(figsize=(15, 10))
-    #    plt.plot(times[event_idx], clock[event_idx], label="Clock Signal")
-    #    plt.title(f"Event {event_idx} Clock Signal and Fits")
-    #    plt.xlabel("Time (ns)")
-    #    plt.ylabel("Amplitude (mV)")
-    #    rising_edge_t = times[i_evt][np.where(time[i_evt] == t_10)[0]:np.where(time[i_evt] == t_90)[0] ]
-    #    plt.plot(
-    #        rising_edge_t,
-    #        slope * np.array(rising_edge_t) + results["biases"][event_idx][i],
-    #        label=f"Fit {i}",
-    #    )
-    #    # Add a black vertical line at the calculated timestamp
-    #    plt.axvline(x=timestamp, color="black", linestyle="--", label=f"Timestamp {i}")
-    #
-    #    plt.scatter(rising_edge_t, rising_edge_mV, label=f"Rising Edge {i}")
-    #
-    #    if len(event_timestamps) > 1:
-    #        differences = [
-    #            abs(event_timestamps[j] - event_timestamps[j - 1])
-    #            for j in range(1, len(event_timestamps))
-    #        ]
-    #        clock_timestamp_differences.append(differences)
-    #    else:
-    #        clock_timestamp_differences.append([-10])
-    #
-    #    if plotting:
-    #        plt.legend()
-    #        plt.savefig(f"./plots/event_{event_idx}.png")
-    #        plt.close()

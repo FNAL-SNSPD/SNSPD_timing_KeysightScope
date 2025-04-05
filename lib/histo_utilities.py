@@ -2,8 +2,71 @@ import numpy as np
 import ROOT as rt
 import matplotlib.pyplot as plt
 from array import array
+import math
 
 std_color_list = [1, 2, 4, 8, 6, 28, 43, 7, 25, 36, 30, 40, 42, 49, 46, 38, 32, 800, 600, 900, 870, 840]
+
+
+class EMG:
+    def __call__( self, t, par ):
+    
+        xx = t[0]
+        amp = par[0]
+        mu = par[1]    # Mean of the Gaussian
+        sigma = par[2] # Standard deviation of the Gaussian
+        lambd = par[3] # Rate parameter of the exponential
+
+        if sigma <= 0 or lambd <= 0:
+            return 0
+        erfc_part = math.erfc((mu+lambd*sigma**2-xx)/(sigma*2**0.5))
+        return amp*lambd/2*math.exp(lambd/2 *(2*mu + lambd*sigma**2-2*xx)) * erfc_part
+
+
+
+def fit_emg(hist, emg, nsigPos = 3, nsigNeg = 0.5, initial_guess = [0.05,55,0.2,2]):
+    
+    peak_position = hist.GetBinCenter(hist.GetMaximumBin())
+    peak_height = hist.GetBinContent(hist.GetMaximumBin())
+    sigma = hist.GetRMS()
+    
+    # Define the fit range from -1 sigma to +1 sigma around the peak
+    fit_range_min = peak_position - nsigNeg*sigma
+    fit_range_max = peak_position + nsigPos*sigma
+    print(peak_position, fit_range_min,fit_range_max)
+    emg_func = rt.TF1("emg", emg, hist.GetXaxis().GetXmin(), hist.GetXaxis().GetXmax(), 4)
+    emg_func.SetParameter(0, peak_height) # scale
+    emg_func.SetParameter(1, peak_position) # mean
+    emg_func.SetParameter(2, initial_guess[2]) # std
+    emg_func.SetParameter(3, initial_guess[3]) # expo 
+    fit_result = hist.Fit(emg_func, '','RS', fit_range_min, fit_range_max)
+
+
+
+    fit_results = emg_func.GetParameters()
+    fit_errors = [emg_func.GetParError(i) for i in range(emg_func.GetNpar())]
+
+    return fit_results, fit_errors, emg_func
+
+
+def fit_gaus(hist, nsig = 1.5):
+    peak_position = hist.GetBinCenter(hist.GetMaximumBin())
+    sigma = hist.GetRMS()
+    
+    # Define the fit range from -1 sigma to +1 sigma around the peak
+    fit_range_min = peak_position - nsig*sigma
+    fit_range_max = peak_position + nsig*sigma
+    gaussian = rt.TF1("gaussian", "gaus", fit_range_min, fit_range_max)
+
+    # Fit the histogram within the specified range
+    hist.Fit(gaussian, "RS")
+
+    # Print the fit results
+    fit_results = gaussian.GetParameters()
+    fit_errors = [gaussian.GetParError(i) for i in range(gaussian.GetNpar())]
+
+    return fit_results, fit_errors, gaussian
+
+
 def create_TH2D(sample, name='h', title=None, binning=[None, None, None, None, None, None], weights=None, axis_title = ['','', '']):
     if title is None:
         title = name
