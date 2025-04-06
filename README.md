@@ -29,3 +29,6 @@ Run the conversion script
 `reco_wrapper.py` loops over all pixels and bias voltages
 
 
+### Final plotting
+
+time resolution wrt bias current are done in `time_resolution.ipynb`, where EMG fit and loop over all temperature/bias current are done
