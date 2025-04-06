@@ -31,4 +31,5 @@ Run the conversion script
 
 ### Final plotting
 
-time resolution wrt bias current are done in `time_resolution.ipynb`, where EMG fit and loop over all temperature/bias current are done
+Time resolution wrt bias current are done in `plot_scripts/time_resolution.ipynb`, where EMG fit and loop over all temperature/bias current are done
+Plots are saved in `plots/ADR/time_resolution_202503`
