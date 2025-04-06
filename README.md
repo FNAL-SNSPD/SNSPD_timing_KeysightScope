@@ -1,6 +1,8 @@
 # Keysight UXR0104B
 Data acquisition and reconstruction for the Keysight UXR0104B scope
 
+## Environment setup
+Run `setup.sh` to setup environment for needed packages for reconstruction and fits
 
 ## Acquisition
 *  Acquire data by taking coincidence of laser trigger and SNSPD events, output files in HDF5 format
