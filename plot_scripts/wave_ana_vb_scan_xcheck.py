@@ -72,11 +72,11 @@ def find_time_ch3(filename, iwave):
 
     f = h5py.File(filename)
     waveforms = f["Waveforms"]
-    waveforms_ch3 = waveforms["Channel 3"]
+    waveforms_ch3 = waveforms["Channel 2"]
 
     total_wfm_n = len(waveforms_ch3)
     #print(total_wfm_n)
-    iwave_name="Channel 3 Seg%dData"%(iwave)
+    iwave_name="Channel 2 Seg%dData"%(iwave)
     #print(iwave_name)
     data_to_find = waveforms_ch3[iwave_name]
 
@@ -189,11 +189,11 @@ def find_time_ch2(filename, iwave):
 
     f = h5py.File(filename)
     waveforms = f["Waveforms"]
-    waveforms_ch2 = waveforms["Channel 2"]
+    waveforms_ch2 = waveforms["Channel 1"]
                
     total_wfm_n = len(waveforms_ch2)
     #print(total_wfm_n)
-    iwave_name="Channel 2 Seg%dData"%(iwave)
+    iwave_name="Channel 1 Seg%dData"%(iwave)
     print(iwave_name)
     data_to_find = waveforms_ch2[iwave_name]
 
