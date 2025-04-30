@@ -42,9 +42,12 @@ def linear_fit_rising_edge(signal, time, laser = True, bl_length = 300, fit_rang
     for waveform_idx, waveform in enumerate(signal):
         # Perform baseline subtraction using the first 100 points
         baseline = np.mean(waveform[:bl_length])
-        baseline_rms = np.sqrt(np.mean(waveform[:bl_length]**2))
+        #baseline_rms = np.sqrt(np.mean((waveform[:bl_length]-baseline)**2))
         waveform_baseline_subtracted = np.abs(waveform - baseline)
-        if baseline_rms> 0.1:
+        baseline_rms = np.sqrt(np.mean(waveform_baseline_subtracted[:bl_length]**2))
+        #print(waveform_idx,baseline_rms)
+        #if baseline_rms> 0.1:
+        if baseline_rms> 2500:
             # Store the results
             results["amplitude"].append(-999)
             results["time_50mV"].append(-999)
@@ -59,21 +62,26 @@ def linear_fit_rising_edge(signal, time, laser = True, bl_length = 300, fit_rang
             results["n_fit_points"].append(-999)
             results['baseline'].append(-999)
             results['baseline_rms'].append(-999)
-
         else:
             if laser: amp_threshold = 0.5
             else: amp_threshold = 0.05
             # Normalize the waveform and turn to positive
             min_val = np.min(waveform_baseline_subtracted)
             max_val = np.max(waveform_baseline_subtracted)
-            if laser: max_val = np.mean(waveform[-100:])
+            #if laser: max_val = np.mean(waveform[-100:])
+            #print(waveform_idx,min_val,max_val)
             norm_waveform = (waveform_baseline_subtracted - min_val) / (max_val - min_val)
             # Find the first index corresponding to 10% and 90% of the waveform
-            id_bl = np.where(waveform_baseline_subtracted >= baseline_rms*3)[0][0]
-            idx_10 = np.where(norm_waveform[id_bl:] >= fit_range[0])[0][0] + id_bl
-            idx_90 = np.where(norm_waveform[id_bl:] >= fit_range[1])[0][0] + id_bl
+            #id_bl = np.where(waveform_baseline_subtracted >= baseline_rms*3)[0][0]
+            #idx_10 = np.where(norm_waveform[id_bl:] >= fit_range[0])[0][0] + id_bl
+            #idx_90 = np.where(norm_waveform[id_bl:] >= fit_range[1])[0][0] + id_bl
+
+            idx_90 = np.where(norm_waveform >= fit_range[1])[0][0]
+            idx_10 = np.where(norm_waveform < fit_range[0])[0]
+            idx_10 = idx_10[idx_10<idx_90][-1]
             # Fit the rising edge between 10% and 90%
-            if idx_90-idx_10 == 0: print(f"ERROR FINDING RISING EDGE: {waveform_idx}")
+            # print(idx_10,idx_90,waveform_idx,baseline_rms)
+            if idx_90-idx_10 < 1: print(f"ERROR FINDING RISING EDGE: {waveform_idx}")
             popt, _ = curve_fit(linear, time[waveform_idx][idx_10:idx_90], norm_waveform[idx_10:idx_90])
             
             # Calculate the timestamp (time at 50% of the waveform)
