@@ -6,7 +6,12 @@ import math
 
 std_color_list = [1, 2, 4, 8, 6, 28, 43, 7, 25, 36, 30, 40, 42, 49, 46, 38, 32, 800, 600, 900, 870, 840]
 
-
+def VToI(V, R, I_offset):
+    '''
+    V, R, I in units of V, Ohm and uA
+    '''
+    I_bias = V/(10000 + 50*R/(50+R))
+    return (I_bias*1e6-I_offset)*50/(50+R)
 class EMG:
     def __call__( self, t, par ):
     
