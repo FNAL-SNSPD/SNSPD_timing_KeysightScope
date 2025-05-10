@@ -38,7 +38,8 @@ def fit_emg(hist, emg, nsigPos = 3, nsigNeg = 0.5, initial_guess = [0.05,55,0.2,
     fit_range_min = peak_position - nsigNeg*sigma
     fit_range_max = peak_position + nsigPos*sigma
     print(peak_position, fit_range_min,fit_range_max)
-    emg_func = rt.TF1("emg", emg, hist.GetXaxis().GetXmin(), hist.GetXaxis().GetXmax(), 4)
+    emg_func = rt.TF1("emg", emg,fit_range_min, fit_range_max, 4)
+#     emg_func = rt.TF1("emg", emg, hist.GetXaxis().GetXmin(), hist.GetXaxis().GetXmax(), 4)
     emg_func.SetParameter(0, peak_height) # scale
     emg_func.SetParameter(1, peak_position) # mean
     emg_func.SetParameter(2, initial_guess[2]) # std
@@ -51,6 +52,9 @@ def fit_emg(hist, emg, nsigPos = 3, nsigNeg = 0.5, initial_guess = [0.05,55,0.2,
     fit_errors = [emg_func.GetParError(i) for i in range(emg_func.GetNpar())]
 
     return fit_results, fit_errors, emg_func
+
+
+
 
 
 def fit_gaus(hist, nsig = 1.5):
